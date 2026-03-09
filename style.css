@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-image: url(gaming.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 85vw;
+   margin: auto;
+}
+ul{
+    display: flex;
+    font-family: poppins;
+    gap : 20px;
+    font-size: 15px;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+ul li:hover{
+    text-shadow: 3px 3px 3px white;
+    
+}
+
+@media only screen and (max-width: 539px){
+    ul{
+       flex-direction: column;
+       padding-top: 12px;
+    }
+}
